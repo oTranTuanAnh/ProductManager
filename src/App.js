@@ -4,6 +4,8 @@ import Navbar from "./component/Navbar";
 import ListProducts from "./component/ListProduct";
 import {Route, Routes} from "react-router-dom";
 import CreateProduct from "./component/CreateProduct";
+import EditProduct from "./component/EditProduct";
+import Detail from "./component/Detail";
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
       <Routes>
         <Route path="products" element={<ListProducts/>}></Route>
         <Route path={"/products/create"} element={<CreateProduct/>}></Route>
-        {/*<Route path={"/students/edit/:id"} element={<EditStudent/>}></Route>*/}
+        <Route path={"/products/edit/:id"} element={<EditProduct/>}></Route>
+        <Route path={"/products/detail/:id"} element={<Detail/>}></Route>
 
 
       </Routes>

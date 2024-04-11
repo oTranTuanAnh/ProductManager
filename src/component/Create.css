@@ -1,7 +1,7 @@
 .form-create{
     width: 30%;
     margin: 100px auto;
-    background-color: darkgray;
+    background-color: rgba(173,182,182,0.98);
     align-items: center;
     padding: 10px;
 }

@@ -28,8 +28,8 @@ export default function ListProducts(){
                 <Link to={'create'}>
                     <button type="button" className="btn btn-secondary add-product">Add new product</button>
                 </Link>
-                <table className="table">
-                    <thead>
+                <table className="table table-striped">
+                    <thead className="table-secondary">
                     <tr>
                         <th scope="col">STT</th>
                         <th scope="col">Title</th>
